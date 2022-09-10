@@ -12,8 +12,11 @@ axios.post('https://contact.plaid.com/jobs', {
   location: "Highland Park", 
   favorite_candy: "Sour Patch Kids", 
   superpower: "Shapeshifting"
-})
-.then(function (response) {
+}, {
+  headers: {
+    'Content-Type': 'application/json',
+  }
+}).then(function (response) {
   console.log(response);
 })
 .catch(function (error) {
