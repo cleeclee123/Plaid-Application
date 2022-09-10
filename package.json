@@ -1,0 +1,23 @@
+{
+  "name": "plaid-application",
+  "version": "1.0.0",
+  "description": "My Application to Plaid w/ Axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleeclee123/Plaid-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleeclee123/Plaid-Application/issues"
+  },
+  "homepage": "https://github.com/cleeclee123/Plaid-Application#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
