@@ -16,9 +16,9 @@ axios.post('https://contact.plaid.com/jobs', {
   headers: {
     'Content-Type': 'application/json',
   }
-}).then(function (response) {
+}).then((response) => {
   console.log(response);
 })
-.catch(function (error) {
+.catch((error) => {
   console.log(error);
 });
